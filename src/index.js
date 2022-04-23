@@ -4,6 +4,7 @@ import "./index.css";
 import LeftHomePage from "./homePage/LeftHomePage.js";
 import RightHomePage from "./homePage/RightHomePage.js";
 import FixMenu from "./homePage/FixMenu.js";
+import Menu from "./homePage/Menu.js";
 class Index extends React.Component {
   constructor(props) {
     super(props);
@@ -12,10 +13,11 @@ class Index extends React.Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container ">
         <LeftHomePage />
         <RightHomePage />
         <FixMenu />
+        {/* <Menu /> */}
       </div>
     );
   }

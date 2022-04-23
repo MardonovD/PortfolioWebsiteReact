@@ -16,6 +16,15 @@ body {
   justify-content: space-between;
   /* margin-top: 50px; */
 }
+
+.name__heading-1 {
+  /* position: fixed; */
+}
+
+.containerDisplayNone {
+  display: none;
+}
+
 .ton {
   color: crimson;
 }
@@ -87,13 +96,14 @@ body {
   display: flex;
   gap: 15px;
   position: fixed;
-
-  margin-top: 20px;
-  margin-left: 1200px;
+  background-color: #fff;
+  margin-top: 10px;
+  margin-left: 1150px;
+  padding: 10px;
 }
 
 #stylee {
-  color: white;
+  color: black;
   font-size: 20px;
 }
 
